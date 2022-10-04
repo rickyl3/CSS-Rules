@@ -2,26 +2,36 @@
   width: 300px;
   height: 100%;
   background-color: #D3D0CB;
+  padding: 2px 10px 2px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px 0px rgba(135, 10, 10, 0.5);
 }
 
 #article_title {
   font-family: 'Anton', monospace;
   letter-spacing: 3px;
   font-size: 25px;
+  color: #461220;
+  text-shadow: 3px 5px rgba(135, 10, 10, 0.2);
 }
 
 #intro {
   font-family: 'Oswald', monospace;
   line-height: 40px;
+  color: #8C2F39;
 }
 
 .question{
   font-family: 'Raleway', monospace;
   font-weight: bold;
+  color: #4C5760;
+  margin-bottom: -20px;
 }
 
 .answer{
   font-family: 'Raleway', monospace;
+  font-weight: normal;
+  color: #4C5760;
 }
 
 #block_quote {
@@ -31,4 +41,7 @@
   margin-left: 50px;
   padding-left: 10px;
   border-left: 1px solid #4C5760;
+  border-radius: 5px;
+  color: #8C2F39;
+  text-shadow: 5px 7px rgba(135, 10, 10, 0.1);
 }
